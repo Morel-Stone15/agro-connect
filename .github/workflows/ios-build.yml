@@ -28,12 +28,12 @@ jobs:
         run: npx cap sync ios
 
       - name: Resolve Swift Packages
-        run: xcodebuild -resolvePackageDependencies -workspace ios/App/App.xcworkspace -scheme App
+        run: xcodebuild -resolvePackageDependencies -project ios/App/App.xcodeproj -scheme App
 
       - name: Build Xcode Project (No Sign)
         run: |
           xcodebuild build \
-            -workspace ios/App/App.xcworkspace \
+            -project ios/App/App.xcodeproj \
             -scheme App \
             -configuration Debug \
             -sdk iphoneos \
