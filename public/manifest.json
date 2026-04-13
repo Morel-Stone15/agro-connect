@@ -1,0 +1,21 @@
+{
+  "name": "L'Essence du Gabon",
+  "short_name": "Agro-Connect",
+  "description": "Découvrez le meilleur du Gabon : produits artisanaux, agricoles et naturels directement des producteurs locaux.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#016634",
+  "icons": [
+    {
+      "src": "image/logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "image/logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
